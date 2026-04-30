@@ -1,0 +1,50 @@
+# Python (FastAPI backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+env/
+venv/
+ENV/
+*.env
+*.log
+backend/myenv
+
+# React (frontend)
+node_modules/
+build/
+dist/
+.env.local
+.env.development
+.env.production
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Coverage / testing
+coverage/
+*.cover
+*.pytest_cache/
+
+# Git
+*.swp
+*.swo
+*.orig
+
+# Logs
+*.log
+
+# Mac/Linux trash
+.Trash-*
+
+# Windows Recycle Bin
+$RECYCLE.BIN/
+
+# Optional: ignore all .env files globally
+.env

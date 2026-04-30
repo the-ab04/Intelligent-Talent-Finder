@@ -9,8 +9,6 @@ AI-powered resume ranking and matching system that allows users to upload resume
 * 📄 Upload and parse resumes (PDF/DOCX)
 * 🤖 AI-powered semantic search (Instructor model)
 * 🔍 Top-k matching resumes with similarity scores
-* 🔐 JWT-based authentication
-* 🎨 Frontend with React + Tailwind CSS
 
 ---
 
@@ -67,7 +65,7 @@ backend/
 ### 🔧 Backend
 
 ```bash
-git clone https://github.com/Yashwanth137/LinkedIn-Talent-Finder.git
+https://github.com/the-ab04/Intelligent-Talent-Finder.git
 cd backend
 
 # Create a virtual environment
@@ -109,21 +107,6 @@ npm run start
 ```
 
 ---
-
-## 🔐 Authentication
-
-* JWT-based login (`/auth/login`) returns token
-* Include token in `Authorization` header:
-
-```http
-Authorization: Bearer <token>
-```
-
-## 📄 Documentation
-
-📘 [Read the full documentation](https://talentfinderdocs.netlify.app/)
-
-Includes setup, API reference, models, and usage instructions.
 
 📄 License
 MIT License
